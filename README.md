@@ -10,8 +10,8 @@ right click on SeleniumAutomationTask/src/test/java/googleplaytest.xml and run a
 Test case as follows :
 
   1. Validate the apps button is shown and clickble
-  2. validate the categories menu is shown and clickable 
-  3.click on Education from the categories menu
-  4.Searching for TED and Assert from Existing the TED app 
-  5.Searching for Facebook.
+  2. Validate the categories menu is shown and clickable 
+  3. Click on Education from the categories menu
+  4. Searching for TED and Assert from Existing the TED app 
+  5. Searching for Facebook.
 

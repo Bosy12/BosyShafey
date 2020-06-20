@@ -13,3 +13,4 @@ Test case as follows :
 3.click on Education from the categories menu
 4.Searching for TED and Assert from Existing the TED app 
 5.Searching for Facebook.
+6-closing the app.

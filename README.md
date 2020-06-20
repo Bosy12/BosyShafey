@@ -1,7 +1,6 @@
 # BosyShafey
-To run the Projects
+To run the Project
 
-import the Google_Play_Search as workspace in your eclipse
 
 you may need to clean the project from the project menu > clean option
 right click on SeleniumAutomationTask/src/test/java/googleplaytest.xml and run as TestNG suite

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="Browser" value="param-val-not-found"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="SeleniumAutomationTask.SeleniumAutomation.ScenarioOne">
+        <methods>
+          <include name="closeWindow"/>
+          <include name="chooseCategory"/>
+          <include name="openApps"/>
+          <include name="searchForTED"/>
+          <include name="openGooglePlay"/>
+        </methods>
+      </class> <!-- SeleniumAutomationTask.SeleniumAutomation.ScenarioOne -->
+      <class name="SeleniumAutomationTask.SeleniumAutomation.ScenarioTwo">
+        <methods>
+          <include name="closeWindow"/>
+          <include name="facebookSearch"/>
+          <include name="openGooglePlay"/>
+        </methods>
+      </class> <!-- SeleniumAutomationTask.SeleniumAutomation.ScenarioTwo -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

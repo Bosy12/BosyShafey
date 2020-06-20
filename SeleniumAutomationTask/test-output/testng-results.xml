@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32676" started-at="2020-06-20T20:27:57Z" finished-at="2020-06-20T20:28:30Z">
+    <groups>
+    </groups>
+    <test name="SeleniumAutomationTask chrome" duration-ms="32676" started-at="2020-06-20T20:27:57Z" finished-at="2020-06-20T20:28:30Z">
+      <class name="SeleniumAutomationTask.SeleniumAutomation.ScenarioOne">
+        <test-method status="PASS" signature="openGooglePlay(java.lang.String)[pri:0, instance:SeleniumAutomationTask.SeleniumAutomation.ScenarioOne@1057a39]" name="openGooglePlay" is-config="true" duration-ms="19653" started-at="2020-06-20T20:27:57Z" finished-at="2020-06-20T20:28:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGooglePlay -->
+        <test-method status="PASS" signature="openApps()[pri:0, instance:SeleniumAutomationTask.SeleniumAutomation.ScenarioOne@1057a39]" name="openApps" duration-ms="1270" started-at="2020-06-20T20:28:17Z" finished-at="2020-06-20T20:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApps -->
+        <test-method status="PASS" signature="chooseCategory()[pri:0, instance:SeleniumAutomationTask.SeleniumAutomation.ScenarioOne@1057a39]" name="chooseCategory" duration-ms="2207" started-at="2020-06-20T20:28:18Z" depends-on-methods="SeleniumAutomationTask.SeleniumAutomation.ScenarioOne.openApps" finished-at="2020-06-20T20:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseCategory -->
+        <test-method status="PASS" signature="searchForTED()[pri:0, instance:SeleniumAutomationTask.SeleniumAutomation.ScenarioOne@1057a39]" name="searchForTED" duration-ms="7244" started-at="2020-06-20T20:28:20Z" depends-on-methods="SeleniumAutomationTask.SeleniumAutomation.ScenarioOne.chooseCategory" finished-at="2020-06-20T20:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTED -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:SeleniumAutomationTask.SeleniumAutomation.ScenarioOne@1057a39]" name="closeWindow" is-config="true" duration-ms="686" started-at="2020-06-20T20:28:29Z" finished-at="2020-06-20T20:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- SeleniumAutomationTask.SeleniumAutomation.ScenarioOne -->
+      <class name="SeleniumAutomationTask.SeleniumAutomation.ScenarioTwo">
+        <test-method status="PASS" signature="facebookSearch()[pri:0, instance:SeleniumAutomationTask.SeleniumAutomation.ScenarioTwo@be92ad]" name="facebookSearch" duration-ms="1593" started-at="2020-06-20T20:28:28Z" finished-at="2020-06-20T20:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookSearch -->
+      </class> <!-- SeleniumAutomationTask.SeleniumAutomation.ScenarioTwo -->
+    </test> <!-- SeleniumAutomationTask chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

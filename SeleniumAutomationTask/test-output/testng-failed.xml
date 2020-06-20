@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" allow-return-values="true">
+  <test thread-count="5" name="SeleniumAutomationTask chrome(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="SeleniumAutomationTask.SeleniumAutomation.ScenarioOne">
+        <methods>
+          <include name="closeWindow"/>
+          <include name="chooseCategory"/>
+          <include name="openApps"/>
+          <include name="searchForTED"/>
+          <include name="openGooglePlay"/>
+        </methods>
+      </class> <!-- SeleniumAutomationTask.SeleniumAutomation.ScenarioOne -->
+    </classes>
+  </test> <!-- SeleniumAutomationTask chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
